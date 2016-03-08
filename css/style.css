@@ -1,16 +1,25 @@
+
+html{
+    background: #e0dde0;
+}
+body{
+    margin: 5px auto 10px auto;
+    padding: 40px;
+    width: 500px;
+    height: 720px;
+    line-height: 25px;
+    background: white;
+    box-shadow: 0px 0px 5px 1px rgba(77,75,77,1);
+}
 div{
-        border-top: 1px solid rgba(0, 0, 0, 0.32);
-        padding:5px 10px 5px 10px;
-        width: 600px;
-    }
-    body{
-        margin-left: 30%;
-        margin-right: 30%;
-        line-height: 1.5;
-    }
-    h1, .fig{
-        text-align: center;
-    }
-    .box{
-        padding-left: 10px;
-    }
+    border-top: 1px solid rgba(0, 0, 0, 0.32);
+    margin: auto;
+    padding: 5px 10px 5px 10px;
+}
+
+h1, .img{
+    text-align: center;
+}
+.box{
+    padding-left: 10px;
+}
