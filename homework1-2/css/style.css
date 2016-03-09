@@ -1,8 +1,9 @@
 
-html{
+body{
     background: #e0dde0;
 }
-body{
+
+.wrapper {
     margin: 5px auto 10px auto;
     padding: 40px;
     width: 500px;
@@ -11,15 +12,17 @@ body{
     background: white;
     box-shadow: 0px 0px 5px 1px rgba(77,75,77,1);
 }
-div{
+
+div {
     border-top: 1px solid rgba(0, 0, 0, 0.32);
     margin: auto;
     padding: 5px 10px 5px 10px;
 }
 
-h1, .img{
+h1, .img {
     text-align: center;
 }
-.box{
+
+.box {
     padding-left: 10px;
 }
