@@ -10,8 +10,10 @@ body {
 .wrapper {
     margin: 0 10% 0 10%;
     padding: 40px;
+    width: 1000px;
     background: white;
     box-shadow: 0px 0px 5px 1px rgba(77,75,77,1);
+    font-family: sans-serif;
 }
 
  /* HEADER */
@@ -25,10 +27,14 @@ body {
 }
 
 .menu li {
-    padding: 10px 40px 10px 20px;
+    margin-right: 30px;
+    padding: 10px 20px 10px 20px;
     float: left;
     display: inline-block;
     list-style: none;
+    text-align: center;
+    border-left: 1px solid transparent;
+    border-right: 1px solid transparent;
 }
 
 .menu a {
@@ -46,13 +52,14 @@ body {
 
 .sidebar {
     float: left;
+    margin-top: 5px;
 }
 
 .sidebar li {
     padding: 10px 0px 5px 20px;
     list-style: none;
     border: 1px solid #c8c8c8;
-    width: 220px;
+    width: 230px;
     height: 25px;
 }
 
@@ -71,11 +78,14 @@ body {
 }
 
 .content {
+    margin-top: 5px;
     float: right;
-}
+    width: 700px;
 
-p {
-    padding: 40px 40px 40px 350px;
+}
+p{
+    display: inline-block;
+    padding: 30px;
 }
 
  /* FOOTER */
@@ -99,7 +109,7 @@ p {
     text-decoration: none;
 }
 
-.footer li:hover {
+.footer a:hover {
     text-decoration: underline;
 }
 
