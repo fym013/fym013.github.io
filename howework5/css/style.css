@@ -1,0 +1,157 @@
+
+body {
+    width: 1215px;
+    height: 1028px;
+    background: url(../img/background.jpg) no-repeat;
+    display: table;
+ }
+
+.wrapper {
+    position: absolute;
+    font-family: "Open sans", Arial, sans-serif;
+}
+
+    /*header*/
+
+.menu {
+    padding-left: 60%;
+    width: 1215px;
+    height: 35px;
+    float: left;
+    position: absolute;
+    background: url(../img/menu.png) no-repeat;
+}
+
+.menu li {
+    display: inline-block;
+    text-align: center;
+}
+
+.menu a {
+    padding: 10px 5px 10px 5px;
+    height: 15px;
+    display: block;
+    text-align: center;
+    color: #60b5ed;
+    text-decoration: none;
+}
+
+.menu a:hover {
+   background-color: #4eabda;
+   color: white;
+}
+
+.icon a{
+    color: white;
+}
+
+.rmenu {
+    border-left: 1px solid #60b5ed;
+}
+
+
+    /*CONTENT*/
+
+.content {
+    margin : 40% 60%;
+    width: 550px;
+    height: 650px;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+h1 {
+    padding: 20px;
+    color: white;
+    text-align: center;
+    border-bottom: 2px solid #c2c6c5;
+    font-size: 30px;
+}
+
+.b1 button{
+    margin: 2% 30%;
+    background: #354d8b;
+    font-size: 14px;
+    width: 200px;
+    line-height: 30px;
+    border-radius: 5px;
+    border: none;
+    color: white;
+}
+
+.b1 span{
+    margin-right: 10px;
+    padding: 4px 18px 5px 5px;
+    width: 100px;
+    font-size: 18px;
+    font-weight: bold;
+    border-right: 2px ridge #4c66a3;
+}
+
+.ou {
+    margin: 2% 25%;
+    position: relative;
+    overflow: hidden;
+    font-size: 14px;
+    font-weight: normal;
+    text-align: center;
+    width: 275px;
+    color: #999999;
+}
+
+.ou>span {
+    display: inline-block;
+    margin: 0 .4em;
+}
+
+.ou>span:before,
+.ou>span:after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    border-top: 2px ridge #666666;
+    margin-top: .6em;
+}
+
+.ou>span:before {
+    margin-left: -102%;
+}
+
+.ou>span:after {
+    margin-left: 2%;
+}
+
+.b2 input{
+    margin: 2% 35%;
+    background: #398bcc;
+    font-size: 14px;
+    width: 150px;
+    line-height: 30px;
+    border-radius: 5px;
+    border: none;
+    color: white;
+}
+
+.form {
+    margin: 10px 25%;
+    padding: 5px 15px;
+    color: white;
+
+}
+
+.form1 input {
+    margin: 2% 25%;
+    padding: 5px 15px;
+    width: 250px;
+    height: 25px;
+    background-color: #100f0f;
+    color: white;
+    border: none;
+    border-bottom: 1px solid gray;
+}
+
+.form1 input:hover {
+   background-color: #1b5288;
+   box-shadow: 0px 0px 10px 5px rgba(105,156,205,1);
+   border: none;
+   border-bottom: 1px solid transparent;
+}
