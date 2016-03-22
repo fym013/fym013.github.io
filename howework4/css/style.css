@@ -6,8 +6,10 @@ body {
  }
 
 .wrapper {
-    margin: 0 15%;
+    margin: 0 auto;
     width: 1000px;
+    height: 1000px;
+    top: 0; left: 0; bottom: 0; right: 0;
     position: absolute;
     background: white;
     box-shadow: 0px 0px 5px 1px rgba(77,75,77,1);
@@ -39,13 +41,22 @@ li {
 }
 
 .countries li {
+    margin-top: 10px;
     padding: 40px 7px 0px 0px;
     display: inline-block;
     text-align: center;
+    font-size: 10px;
+    color: #128aa7;
 }
 
-.contacts, a {
-    color: blue;
+.countries a {
+    color: #128aa7;
+}
+
+.contacts {
+    line-height: 20px;
+    font-size: 12px;
+    color: #128aa7;
 }
 
 .menu {
@@ -54,6 +65,7 @@ li {
     border-bottom: 1px solid black;
     box-shadow: 0px 7px 11px 1px rgba(0,0,0,0.75);
     background-color: #343434;
+    font-size: 14px;
 }
 
 ul.menu > li {
@@ -62,17 +74,16 @@ ul.menu > li {
 }
 
 ul.menu > li > a {
+    padding: 10px 33px;
     display: block;
-    padding: 10px 25px 10px 25px;
     color: white;
     background-color: #343434;
     text-decoration: none;
 }
 
 ul.submenu {
-    width: 150px;
     margin: 1px 0px 0px 25px;
-
+    width: 150px;
     display: none;
     position: absolute;
     box-shadow: 0px 7px 11px 1px rgba(0,0,0,0.75);
@@ -83,8 +94,8 @@ ul.submenu > li {
 }
 
 ul.submenu > li > a {
-    display: block;
     padding: 5px 0px 5px 10px;
+    display: block;
     color: white;
     background-color: #343434;
     text-decoration: none;
@@ -106,37 +117,48 @@ ul.menu > li:hover > ul.submenu {
 
 
 .column1 {
-    width: 250px;
+    margin-bottom: -20000px;
+    padding-bottom: 20000px;
+    padding-top: 5px;
+    width: 249px;
     float: left;
     background: #edeef0;
-    padding-top: 5px;
-    padding-bottom: 20000px;
-    margin-bottom: -20000px;
     text-align: center;
+    font-size: 14px;
+    color: #424c43;
+    border-right: 1px solid #c7cacf;
 }
 
 .column2 {
+    margin-bottom: -20000px;
+    padding-bottom: 20000px;
     width: 500px;
     float: left;
-    padding-bottom: 20000px;
-    margin-bottom: -20000px;
+    background: white;
     color: white;
 }
 
 .column3 {
-    width: 250px;
-    float: right;
-    background: #edeef0;
-    padding-top: 5px;
-    padding-bottom: 20000px;
     margin-bottom: -20000px;
+    padding-bottom: 20000px;
+    padding-top: 5px;
+    width: 249px;
+    float: left;
+    background: #edeef0;
     text-align: center;
+    font-size: 14px;
+    color: #424c43;
+    border-left: 1px solid #c7cacf;
+}
+
+h1 {
+    font-size: 18px;
 }
 
 .footer {
+    margin-top: 10px;
     width: 1000px;
-    margin: 85% 15% 0 15%;
-    position: absolute;
+    font-size: 12px;
     text-align: center;
     color: white;
 }
