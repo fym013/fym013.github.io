@@ -18,18 +18,13 @@ body {
 }
 
 .wrapper {
-    position: absolute;
     font-family: 'helvetica_neueregular', Arial, sans-serif;
 }
 
     /*header*/
 
 .menu {
-    padding-left: 50%;
-    width: 1215px;
-    height: 35px;
-    float: left;
-    position: absolute;
+    padding-left: 400px;
     background: url(../img/menu.png) no-repeat;
     font-size: 14px;
 }
@@ -37,12 +32,11 @@ body {
 .menu li {
     display: inline-block;
     text-align: center;
+    height: 30px;
 }
 
 .menu a {
-    padding: 0px 5px 5px 5px;
-    height: 20px;
-    display: block;
+    padding: 10px 10px;
     text-align: center;
     color: #60b5ed;
     text-decoration: none;
@@ -53,14 +47,17 @@ body {
    color: white;
 }
 
-.icon a{
+.icon a {
     color: white;
 }
 
-.icon .rmenu {
-    padding-left: 10px;
+.img a {
+    padding-left: 20px;
     border-left: 1px solid #60b5ed;
 }
+
+
+
 
 
     /*CONTENT*/
