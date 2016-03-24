@@ -56,10 +56,6 @@ body {
     border-left: 1px solid #60b5ed;
 }
 
-
-
-
-
     /*CONTENT*/
 
 .content {
@@ -67,7 +63,7 @@ body {
     height: 650px;
     left:50%;
     top:50%;
-    margin: 200px 0 0 325px;
+    margin: 150px 0 0 325px;
     background-color: rgba(0, 0, 0, 0.5);
 }
 
