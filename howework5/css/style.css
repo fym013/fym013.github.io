@@ -1,11 +1,4 @@
 
-body {
-    width: 1215px;
-    height: 1028px;
-    background: url(../img/background.jpg) no-repeat;
-    display: table;
- }
-
  @font-face {
     font-family: 'helvetica_neueregular';
     src: url('fonts/helveticaneue-thin-webfont.eot');
@@ -18,28 +11,34 @@ body {
 }
 
 .wrapper {
+    margin: 0 auto;
+    width: 1215px;
+    height: 1028px;
+    background: url(../img/background.jpg) no-repeat;
     font-family: 'helvetica_neueregular', Arial, sans-serif;
 }
 
     /*header*/
 
 .menu {
-    padding-left: 400px;
+    padding-left: 450px;
     background: url(../img/menu.png) no-repeat;
     font-size: 14px;
+    height: 31px;
 }
 
 .menu li {
+    padding-top : 7px;
     display: inline-block;
-    text-align: center;
-    height: 30px;
+    position: relative;
 }
 
 .menu a {
-    padding: 10px 10px;
+    padding: 8px;
     text-align: center;
     color: #60b5ed;
     text-decoration: none;
+    border: 1px solid transparent;
 }
 
 .menu a:hover {
@@ -47,13 +46,32 @@ body {
    color: white;
 }
 
-.icon a {
+.icon a:hover {
+   background: linear-gradient(to top,#2e7ac4, #50afdc);
+   border : 1px solid #4c9dd7;
+}
+
+.icon, .icon a {
     color: white;
 }
 
 .img a {
-    padding-left: 20px;
-    border-left: 1px solid #60b5ed;
+    padding-left: 16px;
+    border-left: 1px solid #56a2dc;
+}
+
+.img img {
+    position: absolute;
+    margin: -5px;
+}
+
+.img span {
+    padding-left: 30px;
+
+}
+
+.sgn span {
+    text-decoration: underline;
 }
 
     /*CONTENT*/
@@ -75,24 +93,30 @@ h1 {
     font-size: 24px;
 }
 
-button{
-    margin: 5% 25%;
-    padding-right: 20px;
-    background: #354d8b;
-    font-size: 14px;
-    width: 280px;
+ .b1 {
+    margin: 20px 0px 20px 137px;
+    padding: 5px;
+    display: block;
+    background: linear-gradient(to top,#314174, #3e5694);
+    font-size: 16px;
+    width: 270px;
     line-height: 30px;
     border-radius: 5px;
+    text-decoration: none;
     white-space: pre;
-    font-weight: bold;
     border: none;
+    border-top: 1px solid #758ab9;
     color: white;
 }
 
-.b1 span{
-    margin-right: 50px;
-    padding: 0 10px 0 5px;
-    font-size: 24px;
+.b1 span {
+    font-weight: bolder;
+}
+
+.b1 span:first-child {
+    margin-right: 30px;
+    padding: 5px 13px 8px 10px;
+    font-size: 26px;
     border-right: 2px ridge #4c66a3;
 }
 

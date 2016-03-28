@@ -1,0 +1,91 @@
+
+article, aside, details, figcaption, figure, footer, header, hgroup, main, nav, section, summary {
+	display: block;
+}
+
+.wrapper {
+	margin: 0 auto;
+	width: 1000px;
+	height: 1310px;
+}
+
+
+/* Header
+-----------------------------------------------------------------------------*/
+.header {
+	height: 300px;
+	background: #FFE680;
+}
+
+.topmenu li{
+	display: inline-block;
+}
+
+.mainmenu li{
+	display: inline-block;
+}
+
+/* Middle
+-----------------------------------------------------------------------------*/
+.middle {
+	width: 100%;
+	padding: 0 0 100px;
+	position: relative;
+}
+.middle:after {
+	display: table;
+	clear: both;
+	content: '';
+}
+.container {
+	width: 100%;
+	float: left;
+	overflow: hidden;
+	background-color: #a7b6be;
+}
+.content {
+	padding: 0 270px 0 270px;
+}
+
+figure {
+	float: left;
+}
+.box {
+	width: 130px;
+	height: 130px;
+}
+
+/* Left Sidebar
+-----------------------------------------------------------------------------*/
+.left-sidebar {
+	float: left;
+	width: 250px;
+	margin-left: -100%;
+	position: relative;
+	background: #B5E3FF;
+}
+
+
+/* Right Sidebar
+-----------------------------------------------------------------------------*/
+.right-sidebar {
+	float: left;
+	width: 250px;
+	margin-left: -250px;
+	position: relative;
+	background: #FFACAA;
+}
+
+
+/* Footer
+-----------------------------------------------------------------------------*/
+.footer {
+	width: 1000px;
+	margin: -100px auto 0;
+	height: 100px;
+	background: #BFF08E;
+	position: relative;
+}
+.footer li {
+	display: inline-block;
+}
