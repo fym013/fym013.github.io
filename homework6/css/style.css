@@ -5,6 +5,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, nav, 
 
 .wrapper {
 	margin: 0 auto;
+	padding: 20px 45px 0px 45px;
 	width: 1000px;
 	height: 1310px;
 }
@@ -24,7 +25,33 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, nav, 
 .mainmenu li{
 	display: inline-block;
 }
+.telephone {
+float: left;
+padding: 5px;
+}
 
+.enter {
+	margin: 5px;
+	padding: 5px;
+	width: 495px;
+	height: 25px;
+	float: left;
+	background: linear-gradient(to top,#0d365a, #1f6685);
+}
+.enter input {
+	padding: 2px 2px;
+	width: 110px;
+}
+.navicon {
+	margin: 5px;
+	width: 75px;
+	height: 20px;
+	float: left;
+	border: 1px solid #c1c8cb;
+}
+.navicon a{
+	padding-left: 5px;
+}
 /* Middle
 -----------------------------------------------------------------------------*/
 .middle {
