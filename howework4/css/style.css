@@ -1,16 +1,13 @@
 
 body {
     background: url(../img/background.jpg) repeat-x;
-    display: table;
     background-color: #0c739f;
  }
 
 .wrapper {
     margin: 0 auto;
     width: 1000px;
-    height: 1000px;
     top: 0; left: 0; bottom: 0; right: 0;
-    position: absolute;
     background: white;
     box-shadow: 0px 0px 5px 1px rgba(77,75,77,1);
     font-family: "Open sans", Arial, sans-serif;
@@ -28,7 +25,6 @@ li {
 
 .logo {
     float: left;
-
 }
 
 .contacts {
@@ -132,7 +128,7 @@ ul.menu > li:hover > ul.submenu {
 .column2 {
     margin-bottom: -20000px;
     padding-bottom: 20000px;
-    width: 500px;
+    width: 498px;
     float: left;
     background: white;
     color: white;
@@ -159,6 +155,7 @@ h1 {
     margin-top: 10px;
     width: 1000px;
     font-size: 12px;
+    position: absolute;
     text-align: center;
     color: white;
 }
