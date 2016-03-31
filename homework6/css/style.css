@@ -6,15 +6,16 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, nav, 
 .wrapper {
 	margin: 0 auto;
 	padding: 20px 45px 0px 45px;
-	width: 1000px;
+	width: 909px;
 	height: 1310px;
+	font-family: "Open sans", Arial, sans-serif;
+	box-shadow: 2px 2px 58px 6px rgba(12,105,245,1);
 }
 
 
 /* Header
 -----------------------------------------------------------------------------*/
 .header {
-	height: 300px;
 	background: #FFE680;
 }
 
@@ -26,32 +27,115 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, nav, 
 	display: inline-block;
 }
 .telephone {
-float: left;
-padding: 5px;
+	margin: 10px 5px 5px 30px;
+	float: left;
+	font-size: 18px;
+	color: #5e696d;
+}
+.telephone img {
+	margin-left: -26px;
+	position: absolute;
 }
 
 .enter {
 	margin: 5px;
 	padding: 5px;
 	width: 495px;
-	height: 25px;
+	height: 20px;
 	float: left;
+	font-size: 10.91px;
+	border-radius: 5px;
 	background: linear-gradient(to top,#0d365a, #1f6685);
+	box-shadow: 2px 2px 5px 0px rgba(0,0,0,0.75);
 }
+
 .enter input {
-	padding: 2px 2px;
+	margin-left: 5px;
+	padding: 1px 2px;
 	width: 110px;
+	font-size: 10.91px;
 }
+
+.enter form:first-child {
+	margin-left: 15px;
+}
+
+.enter img {
+	margin-top: 2px;
+	margin-left: -15px;
+	position: absolute;
+}
+
+.enter a {
+	margin-left: 5px;
+	color: white;
+	text-decoration: none;
+}
+
+.enter1 a {
+	padding-right: 6px;
+	border-right: 1px solid white;
+}
+
+.enter2 a {
+	margin-left: 15px;
+	font-size: 12px;
+	color: #bfbfbf;
+	border-bottom: 1px solid #7c8794;
+}
+
 .navicon {
-	margin: 5px;
+	margin: 10px 0px 10px 15px;
 	width: 75px;
 	height: 20px;
 	float: left;
 	border: 1px solid #c1c8cb;
+	border-radius: 10px;
 }
+
 .navicon a{
-	padding-left: 5px;
+	padding-left: 7px;
 }
+
+.mainmenu {
+    margin: 5px 0px 5px 0px;
+    padding: 10px 10px 10px 115px;
+    font-size: 13.64px;
+    border-radius: 5px;
+    background: linear-gradient(to top,#030303, #505860);
+    box-shadow: 2px 2px 5px 0px rgba(0,0,0,0.75);
+}
+
+.mainmenu a {
+    padding: 5px 15px 5px 15px;
+    text-decoration: none;
+    color: #a2acb0;
+}
+
+.mainmenu a:hover {
+    border-radius: 20px;
+    color: white;
+    background: linear-gradient(to top,#0d365a, #1f6585);
+}
+
+.koshyk1 {
+    font-size: 11px;
+}
+
+.koshyk11 {
+	margin-left: 30px;
+}
+
+.koshyk1 span{
+    font-size: 12px;
+    color: #0d5a8f;
+}
+
+.koshyk1 img{
+    margin-bottom: -5px;
+    margin-left: -20px;
+}
+
 /* Middle
 -----------------------------------------------------------------------------*/
 .middle {
@@ -107,7 +191,7 @@ figure {
 /* Footer
 -----------------------------------------------------------------------------*/
 .footer {
-	width: 1000px;
+	width: 909px;
 	margin: -100px auto 0;
 	height: 100px;
 	background: #BFF08E;

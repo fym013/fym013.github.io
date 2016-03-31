@@ -21,7 +21,7 @@
     /*header*/
 
 .menu {
-    padding-left: 450px;
+    padding-left: 470px;
     background: url(../img/menu.png) no-repeat;
     font-size: 14px;
     height: 31px;
@@ -38,7 +38,6 @@
     text-align: center;
     color: #60b5ed;
     text-decoration: none;
-    border: 1px solid transparent;
 }
 
 .lmenu a:hover {
@@ -46,14 +45,14 @@
     color: white;
 }
 
-.rmenu:hover {
-    margin: -1px;
+.rmenu {
+    margin-left: 5px;
     background: linear-gradient(to top,#2e7ac4, #50afdc);
     border : 1px solid #4c9dd7;
-    height: 23px;
+    height: 22px;
 }
 
-.img a, .sgn, .sgn a {
+.img a,.img, .sgn, .sgn a {
     color: white;
 }
 
@@ -65,18 +64,15 @@
     text-decoration: underline;
 }
 
-.img a {
-    padding-left: 20px;
-    border-left: 1px solid #56a2dc;
-}
-
 .img img {
-    position: absolute;
     margin: -5px;
+    padding-left: 10px;
+    position: absolute;
+    border-left : 1px solid #56a2dc;
 }
 
 .img span {
-    padding-left: 30px;
+    padding-left: 35px;
 }
 
 
@@ -126,10 +122,6 @@ h1 {
     border-right: 2px ridge #4c66a3;
 }
 
-.b1:hover {
-    box-shadow: 0px 0px 10px 5px rgba(105,156,205,1);
-}
-
 .ou {
     margin: 2% 25%;
     position: relative;
@@ -174,10 +166,6 @@ h1 {
     color: white;
 }
 
-.b2 input:hover {
-    box-shadow: 0px 0px 10px 5px rgba(999,999,995,1);
-}
-
 .form {
     margin: 10px auto;
     padding: 5px 15px;
@@ -197,7 +185,7 @@ h1 {
     border-bottom: 1px solid gray;
 }
 
-.form1 input:hover {
+.form1 input:focus {
    background-color: #1b5288;
    box-shadow: 0px 0px 10px 5px rgba(105,156,205,1);
    border: none;
