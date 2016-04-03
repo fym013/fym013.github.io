@@ -9,15 +9,11 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, nav, 
 	width: 909px;
 	height: 1310px;
 	font-family: "Open sans", Arial, sans-serif;
-	box-shadow: 2px 2px 58px 6px rgba(12,105,245,1);
 }
 
 
 /* Header
 -----------------------------------------------------------------------------*/
-.header {
-	background: #FFE680;
-}
 
 .topmenu li{
 	display: inline-block;
@@ -38,7 +34,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, nav, 
 }
 
 .enter {
-	margin: 5px;
+	margin: 7px;
 	padding: 5px;
 	width: 495px;
 	height: 20px;
@@ -73,7 +69,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, nav, 
 }
 
 .enter1 a {
-	padding-right: 6px;
+	padding-right: 8px;
 	border-right: 1px solid white;
 }
 
@@ -85,7 +81,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, nav, 
 }
 
 .navicon {
-	margin: 10px 0px 10px 15px;
+	margin: 10px 0px 10px 10px;
 	width: 75px;
 	height: 20px;
 	float: left;
@@ -138,65 +134,176 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, nav, 
 
 /* Middle
 -----------------------------------------------------------------------------*/
-.middle {
-	width: 100%;
-	padding: 0 0 100px;
-	position: relative;
-}
-.middle:after {
-	display: table;
-	clear: both;
-	content: '';
-}
+
 .container {
-	width: 100%;
-	float: left;
-	overflow: hidden;
-	background-color: #a7b6be;
-}
-.content {
-	padding: 0 270px 0 270px;
+	margin: 10px 0px 0px 193px;
+	position: absolute;
+	width: 525px;
+	background: linear-gradient(to top,#93a7b0, #e5e7e8);
+	border-radius: 5px;
 }
 
 figure {
 	float: left;
+	margin: 10px 15px;
+	text-align: center;
 }
-.box {
-	width: 130px;
-	height: 130px;
+figure a {
+	font-size: 14.59px;
+	color: #206988;
+	text-decoration: none;
 }
+figure div {
+	font-size: 12.77px;
+}
+
+.box img {
+	margin: 3px;
+	padding: 5px 30px;
+	background: white;
+	border-radius: 10px;
+	border: 1px solid #a7b1b4;
+}
+
+figcaption {
+	font-size: 16px;
+	font-weight: bold;
+	font-style: italic;
+	font-family: Arial;
+	color: #114165;
+}
+
 
 /* Left Sidebar
 -----------------------------------------------------------------------------*/
 .left-sidebar {
 	float: left;
-	width: 250px;
-	margin-left: -100%;
-	position: relative;
-	background: #B5E3FF;
+	margin-bottom: -20000px;
+    padding-bottom: 20000px;
+	position: absolute;
+	background: white;
+}
+
+.catalogbar {
+	margin: 10px 5px;
+	padding: 5px 5px 5px 30px;
+	font-size: 14px;
+	color: #114165;
+	border-radius: 15px;
+	border: 1px solid #8b979c;
+	box-shadow: 2px 2px 5px 0px rgba(0,0,0,0.75);
+}
+
+.catalogbar img, .tires img {
+	margin-top: -5px;
+	margin-left: -27px;
+	position: absolute;
+}
+
+.left-sidebar .catalogbar {
+	font-size: 12.73px;
+}
+
+.tires {
+	margin: 5px;
+	padding: 5px 5px 5px 30px;
+	width: 140px;
+	font-size: 14px;
+	color: #0c3256;
+	border-radius: 15px;
+	border: 1px solid #79878d;
+}
+
+.left-sidebar li{
+	margin: 5px 0px 10px 60px;
+	font-size: 12.73px;
+	list-style: circle;
+}
+
+.left-sidebar li a {
+	margin-left: -7px;
+	text-decoration: none;
+	color: #465961;
+}
+.left-sidebar li a:hover {
+	font-size: 14px;
+	font-weight: bold;
+	font-style: italic;
+	font-family: arial;
+	color: #0c3256;
 }
 
 
 /* Right Sidebar
 -----------------------------------------------------------------------------*/
 .right-sidebar {
-	float: left;
-	width: 250px;
-	margin-left: -250px;
+	margin-bottom: -20000px;
+    padding-bottom: 20000px;
+	float: right;
 	position: relative;
-	background: #FFACAA;
+	background: white;
 }
+.checkbox1 {
+	margin: 5px 0px 10px 10px;
+	font-size: 12.73px;
+	color: #465961;
+}
+
+.checkbox2 input{
+	margin: 5px 5px 5px 15px;
+	padding: 5px 10px;
+	font-size: 11px;
+	color: white;
+	border-radius: 20px;
+	border: none;
+	background: linear-gradient(to top,#0d365a, #1f6585);
+	box-shadow: 2px 2px 5px 0px rgba(0,0,0,0.75);
+}
+
+
 
 
 /* Footer
 -----------------------------------------------------------------------------*/
+
 .footer {
 	width: 909px;
 	margin: -100px auto 0;
 	height: 100px;
-	background: #BFF08E;
+	background: #213a4d;
 	position: relative;
+	font-size: 10px;
+	color: #7f4740;
+	text-align: center;
+	font-family: "Open sans", Arial, sans-serif;
+	border-radius: 2px;
 }
 .footer li {
+	margin: 5px;
 	display: inline-block;
 }
+.footer a{
+	padding-right: 10px;
+	text-decoration: none;
+	color: white;
+	font-size: 12px;
+	border-right: 1px solid white;
+}
+
+.lst a{
+	border-right: none;
+}
+.footer a:hover {
+	color: #52abcb;
+}
+footer div {
+	margin: 5px;
+}
+.logo {
+	margin: 820px 0px 0px 120px;
+	position: absolute;
+}
+.logo img {
+	padding: 5px;
+}
+
