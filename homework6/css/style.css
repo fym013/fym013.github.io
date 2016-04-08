@@ -15,6 +15,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, nav, 
 /* Header
 -----------------------------------------------------------------------------*/
 
+
 .topmenu li{
 	display: inline-block;
 }
@@ -22,21 +23,27 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, nav, 
 .mainmenu li{
 	display: inline-block;
 }
+
 .telephone {
-	margin: 10px 5px 5px 30px;
+	margin: 13px 5px 5px 32px;
 	float: left;
 	font-size: 18px;
 	color: #5e696d;
 }
+
 .telephone img {
-	margin-left: -26px;
+	margin-left: -25px;
 	position: absolute;
 }
 
+.telephone span {
+	padding: 1px 4px 0px 3px;
+}
+
 .enter {
-	margin: 7px;
-	padding: 5px;
-	width: 495px;
+	margin: 7px 7px 7px 7px;
+	padding: 4px;
+	width: 490px;
 	height: 20px;
 	float: left;
 	font-size: 10.91px;
@@ -46,9 +53,9 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, nav, 
 }
 
 .enter input {
-	margin-left: 5px;
-	padding: 1px 2px;
-	width: 110px;
+	margin-left: 7px;
+	padding-left: 1px;
+	width: 107px;
 	font-size: 10.91px;
 }
 
@@ -57,31 +64,42 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, nav, 
 }
 
 .enter img {
-	margin-top: 2px;
-	margin-left: -15px;
+	margin-top: 1px;
+	margin-left: -10px;
+	width: 13px;
+	height: 18px;
 	position: absolute;
 }
 
 .enter a {
-	margin-left: 5px;
 	color: white;
 	text-decoration: none;
 }
 
 .enter1 a {
-	padding-right: 8px;
+	margin-left: 5px;
+	padding-right: 2px;
+
+}
+
+.enter1 {
+	padding-right: 5px;
 	border-right: 1px solid white;
 }
 
+.enter11 a {
+	padding-left: 2px;
+}
+
 .enter2 a {
-	margin-left: 15px;
+	margin-left: 16px;
 	font-size: 12px;
 	color: #bfbfbf;
 	border-bottom: 1px solid #7c8794;
 }
 
 .navicon {
-	margin: 10px 0px 10px 10px;
+	margin: 8px 0px 14px 9px;
 	width: 75px;
 	height: 20px;
 	float: left;
@@ -90,12 +108,12 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, nav, 
 }
 
 .navicon a{
-	padding-left: 7px;
+	padding-left: 6px;
 }
 
 .mainmenu {
     margin: 5px 0px 5px 0px;
-    padding: 10px 10px 10px 115px;
+    padding: 7px 10px 10px 133px;
     font-size: 13.64px;
     border-radius: 5px;
     background: linear-gradient(to top,#030303, #505860);
@@ -103,7 +121,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, nav, 
 }
 
 .mainmenu a {
-    padding: 5px 15px 5px 15px;
+    padding: 3px 15px 3px 15px;
     text-decoration: none;
     color: #a2acb0;
 }
@@ -113,46 +131,59 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, nav, 
     color: white;
     background: linear-gradient(to top,#0d365a, #1f6585);
 }
-
+.koshyk1 a:hover {
+	background: none;
+}
 .koshyk1 {
+	margin-left: 12px;
     font-size: 11px;
+    color: #a2acb0;
 }
 
 .koshyk11 {
-	margin-left: 30px;
+	margin-left: 34px;
 }
 
 .koshyk1 span{
+	padding-left: 15px;
     font-size: 12px;
     color: #0d5a8f;
 }
+.koshyk11 span {
+	padding-left: 1px;
+}
 
 .koshyk1 img{
-    margin-bottom: -5px;
-    margin-left: -20px;
+    margin-bottom: -4px;
+    margin-right: -10px;
 }
+
 
 /* Middle
 -----------------------------------------------------------------------------*/
 
+
 .container {
-	margin: 10px 0px 0px 193px;
+	margin: 7px 0px 0px 191px;
 	position: absolute;
 	width: 525px;
+	height: 627px;
 	background: linear-gradient(to top,#93a7b0, #e5e7e8);
 	border-radius: 5px;
 }
 
 figure {
 	float: left;
-	margin: 10px 15px;
+	margin: 10px 15px 10px 15px;
 	text-align: center;
 }
+
 figure a {
 	font-size: 14.59px;
 	color: #206988;
 	text-decoration: none;
 }
+
 figure div {
 	font-size: 12.77px;
 }
@@ -173,9 +204,38 @@ figcaption {
 	color: #114165;
 }
 
+.box1 figcaption{
+    padding-left: 15px;
+}
+
+.box2 figcaption{
+    padding-left: 10px;
+}
+
+.box3 figcaption{
+    margin-left: 12px;
+}
+
+.box1 img{
+	margin: 5px 3px 2px 7px;
+    padding: 5px 33px 4px 30px;
+}
+
+.box2 img{
+	margin: 5px -3px 4px -4px;
+    padding: 5px 34px 4px 33px;
+}
+
+.box3 img{
+    margin: 5px 3px 4px 3px;
+    padding: 5px 30px 4px 27px;
+}
+
 
 /* Left Sidebar
 -----------------------------------------------------------------------------*/
+
+
 .left-sidebar {
 	float: left;
 	margin-bottom: -20000px;
@@ -185,7 +245,7 @@ figcaption {
 }
 
 .catalogbar {
-	margin: 10px 5px;
+	margin: 9px 5px 15px 4px;
 	padding: 5px 5px 5px 30px;
 	font-size: 14px;
 	color: #114165;
@@ -194,9 +254,19 @@ figcaption {
 	box-shadow: 2px 2px 5px 0px rgba(0,0,0,0.75);
 }
 
-.catalogbar img, .tires img {
+.catalogbar1 {
+	margin: 10px 5px 15px -1px;
+	padding: 6px 5px 5px 30px;
+}
+
+.catalogbar img {
 	margin-top: -5px;
 	margin-left: -27px;
+	position: absolute;
+}
+.tires img {
+	margin-top: -6px;
+	margin-left: -24px;
 	position: absolute;
 }
 
@@ -205,9 +275,9 @@ figcaption {
 }
 
 .tires {
-	margin: 5px;
-	padding: 5px 5px 5px 30px;
-	width: 140px;
+	margin: 5px 5px 5px 0px;
+	padding: 7px 5px 5px 29px;
+	width: 117px;
 	font-size: 14px;
 	color: #0c3256;
 	border-radius: 15px;
@@ -215,16 +285,21 @@ figcaption {
 }
 
 .left-sidebar li{
-	margin: 5px 0px 10px 60px;
+	margin: 7px 0px 13px 54px;
 	font-size: 12.73px;
 	list-style: circle;
 }
 
 .left-sidebar li a {
-	margin-left: -7px;
+	margin-left: -8px;
 	text-decoration: none;
 	color: #465961;
 }
+
+.left-sidebar ul:last-child {
+	padding-top: 5px;
+}
+
 .left-sidebar li a:hover {
 	font-size: 14px;
 	font-weight: bold;
@@ -233,9 +308,19 @@ figcaption {
 	color: #0c3256;
 }
 
+.left-list {
+	margin: -7px 0px 4px 0px;
+}
+
+.left-list1 {
+	margin: -8px 0px -6px 0px;
+}
+
 
 /* Right Sidebar
 -----------------------------------------------------------------------------*/
+
+
 .right-sidebar {
 	margin-bottom: -20000px;
     padding-bottom: 20000px;
@@ -243,15 +328,40 @@ figcaption {
 	position: relative;
 	background: white;
 }
+
+.catalogbar2 {
+	margin: 8px 2px 15px -1px;
+	padding: 6px 5px 5px 30px;
+	width: 144px;
+}
+
+.right-list {
+	margin: -1px 0px -3px 13px;
+	width: 103px;
+}
+
+.right-list1 {
+	margin: 14px 1px 1px 12px;
+	width: 103px;
+}
+
 .checkbox1 {
-	margin: 5px 0px 10px 10px;
+	padding: 5px 0px 0px 25px;
 	font-size: 12.73px;
 	color: #465961;
 }
 
+.checkbox1 input {
+	margin: 6px 3px -28px -2px;
+}
+
+.checkbox1 label {
+	margin-left: 5px;
+}
+
 .checkbox2 input{
-	margin: 5px 5px 5px 15px;
-	padding: 5px 10px;
+	margin: 19px 5px 5px 23px;
+	padding: 5px 17px 5px 14px;
 	font-size: 11px;
 	color: white;
 	border-radius: 20px;
@@ -262,13 +372,14 @@ figcaption {
 
 
 
-
 /* Footer
 -----------------------------------------------------------------------------*/
 
+
+
 .footer {
 	width: 909px;
-	margin: -100px auto 0;
+	margin: -261px auto 0;
 	height: 100px;
 	background: #213a4d;
 	position: relative;
@@ -279,11 +390,11 @@ figcaption {
 	border-radius: 2px;
 }
 .footer li {
-	margin: 5px;
+	margin: 12px -1px 10px 8px;
 	display: inline-block;
 }
 .footer a{
-	padding-right: 10px;
+	padding: 0px 10px 0px 5px;
 	text-decoration: none;
 	color: white;
 	font-size: 12px;
@@ -300,10 +411,26 @@ footer div {
 	margin: 5px;
 }
 .logo {
-	margin: 820px 0px 0px 120px;
+	margin: 658px 0px 0px 107px;
+	vertical-align: center;
 	position: absolute;
 }
 .logo img {
-	padding: 5px;
+	padding: 5px 5px 5px 5px;
 }
 
+.logo img:first-child {
+	padding: 0px 3px 0px 10px;
+}
+
+.logo img:nth-child(3) {
+	padding: 0px 0px 0px 4px
+}
+
+.logo img:nth-child(4)  {
+	padding: 0px 0px 0px 12px;
+}
+
+.logo img:nth-child(6)  {
+	padding: 0px 4px 0px 5px;
+}
