@@ -1,15 +1,176 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="utf-8" />
-    <title>js1-2</title>
-    <link href="css/reset.css" rel="stylesheet">
-    <link href="css/style.css" rel="stylesheet">
-    <link href='https://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
-    <script src="js/script.js"></script>
+    <meta charset="utf-8">
+    <title>Pingbuller</title>
+    <link href="css/reset.css" rel="stylesheet" type="text/css">
+    <link href="css/style.css" rel="stylesheet" type="text/css">
+    <link href="css/media-queries.css" rel="stylesheet" type="text/css">
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,300' rel='stylesheet' type='text/css'>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
 
 <body>
+    <div class="wrapper">
 
+        <header>
+            <div class="header__box">
+                <div class="header__logo__box">
+                    <img class="logo" src="img/logo.png" alt="logo">
+                </div>
+                <nav>
+                    <ul class="menu">
+                        <li class="menu__item"><a href="#" class="menu__link">HOME</a></li>
+                        <li class="menu__item"><a href="#" class="menu__link">ABOUT</a></li>
+                        <li class="menu__item"><a href="#" class="menu__link">BLOG</a></li>
+                        <li class="menu__item"><a href="#" class="menu__link">PRODUCTS</a></li>
+                        <li class="menu__item"><a href="#" class="menu__link">LOREM IPSUM</a></li>
+                        <li class="menu__item"><a href="#" class="menu__link">DOLOR SIT AMET</a></li>
+                    </ul>
+                    <ul class="drop-menu">
+                        <li class="drop-menu__button"><a href="#" class="menu__link drop__link">home</a>
+                            <ul class="drops">
+                                <li class="drop__item"><a href="#" class="menu__link">about</a></li>
+                                <li class="drop__item"><a href="#" class="menu__link">blog</a></li>
+                                <li class="drop__item"><a href="#" class="menu__link">products</a></li>
+                                <li class="drop__item"><a href="#" class="menu__link">lorem ipsum</a></li>
+                                <li class="drop__item"><a href="#" class="menu__link">dolor sit amet</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+                <div class="slider">
+                    <div class="slider__content">
+                        <div class="slider__content__box">
+                            <h1 class="slider__h1">Lorem Ipsum Dolor</h1>
+                            <h2 class="slider__h2">IT WILL MAKE ALL OF YOUR DREAMS COME TRUE</h2>
+                            <p class="slider__p">
+                               Semper sollicitudin gravida eget, vestibulum sit amet sapien. Nunc dignissim tincidunt est, et auctor turpis ornare a. Nam venenatis hendrerit est at volutpat. Morbi elementum euismod lacus id semper. In odio nunc, imperdiet eget aliquam quis, euismod id lectus. Nulla interdum arcu et felis aliquam a tempus lectus lobortis.
+                            </p>
+                        </div>
+                        <img class="iphone" src="img/iphone.png" alt="iphone">
+                        <img class="switch" src="img/switch.png" alt="">
+                    </div>
+                </div>
+        <article>
+            <div class="block-box">
+                <div class="block">
+                    <h2 class="block__item">ABOUT OUR COMPANY</h2>
+                    <p class="block__text">Nunc turpis neque, feugiat eget eleifend et, lacinia non neque. Praesent rhoncus ultrices posuere. Pellentesque vel lacus eget nisi convallis auctor. Nam</p>
+                    <a class="block__link" href="#">READ MORE</a>
+                    <a class="block__icon" href="#"></a>
+                </div>
+                 <div class="block">
+                    <h2 class="block__item">ABOUT OUR COMPANY</h2>
+                    <p class="block__text">Nunc turpis neque, feugiat eget eleifend et, lacinia non neque. Praesent rhoncus ultrices posuere. Pellentesque vel lacus eget nisi convallis auctor. Nam</p>
+                    <a class="block__link" href="#">READ MORE</a>
+                    <a class="block__icon block__icon2" href="#"></a>
+                </div>
+                 <div class="block">
+                    <h2 class="block__item">ABOUT OUR COMPANY</h2>
+                    <p class="block__text">Nunc turpis neque, feugiat eget eleifend et, lacinia non neque. Praesent rhoncus ultrices posuere. Pellentesque vel lacus eget nisi convallis auctor. Nam</p>
+                    <a class="block__link" href="#">READ MORE</a>
+                    <a class="block__icon block__icon3" href="#"></a>
+                </div>
+            </div>
+        </article>
+
+        <section>
+            <div class="section-box">
+                <div class="section__news">
+                    <h2 class="section__h2">PingbulLer <span class="section__h2__pink">starts here</span></h2>
+                    <p class="section__text">“Nunc turpis neque, feugiat eget eleifend et, lacinia non neque. Praesent rhoncus ultrices posuere. Pellentesque vel lacus eget nisi convallis auctor. Nam vitae lectus eu libero pellentesque pulvinar urna risus, mattis pulvinar bibendum in, venenatis quis neque. Mauris nec metus ultricies erat consequat dignissim non eu nisl.”</p>
+                </div>
+                <img class="section__switch" src="img/switch_copy.png" alt="">
+                <div class="section__updates">
+                    <h2 class="section__updates__h2">RECENT UPDATES</h2>
+                    <div class="section__updates__box">
+                        <img class="section__updates__img" src="img/updates.png" alt="">
+                        <h3 class="section__updates__h3">Nunc turpis neque feugiat eget </h3>
+                        <p class="section__updates__text">Posted by Admin on March 13 2012 in Recent News</p>
+                    </div>
+                    <div class="section__updates__box">
+                        <img class="section__updates__img" src="img/updates1.png" alt="">
+                        <h3 class="section__updates__h3">Nunc turpis neque feugiat eget </h3>
+                        <p class="section__updates__text">Posted by Admin on March 13 2012 in Category</p>
+                    </div>
+                    <div class="section__updates__box">
+                        <img class="section__updates__img" src="img/updates2.png" alt="">
+                        <h3 class="section__updates__h3">Nunc turpis neque feugiat eget </h3>
+                        <p class="section__updates__text">Posted by Admin on March 13 2012 in Blog Updates</p>
+                        <a class="section__link" href="">READ MORE HERE</a>
+                        <a class="section__link__2" href="">MORE BLOG POSTS</a>
+                    </div>
+                </div>
+            </div>
+            <div class="section__logos__box">
+                <div class="section__logos">
+                    <img class="section__logos__img" src="img/logo1.png" alt="">
+                    <img class="section__logos__img" src="img/logo2.png" alt="">
+                    <img class="section__logos__img" src="img/logo3.png" alt="">
+                    <img class="section__logos__img" src="img/logo4.png" alt="">
+                    <img class="section__logos__img" src="img/logo5.png" alt="">
+                    <img class="section__logos__img" src="img/logo6.png" alt="">
+                </div>
+            </div>
+        </section>
+
+        <div class="comments">
+            <div class="comments-box">
+                <div class="comments__column comments__column--960">
+                    <img class="comments__logo" src="img/logo-copy.png" alt=""><br>
+                    <h3 class="comments__text_h3">Copyright 2013, Pingbull AS</h3>
+                    <p class="comments__text comments__text__left">
+                        Nunc turpis neque, feugiat eget eleifend et, lacinia non neque. Praesent rhoncus ultrices posuere. Pellentesque vel lacus eget nisi convallis auctor. Nam vitae lectus eu libero pellentesque pulvinar. Quisque urna risus, mattis pulvinar bibendum in, venenatis quis neque. Mauris nec metus ultricies erat consequat dignissim non eu nisl. Quisque libero tellus, pharetra et eleifend id, interdum elementum arcu. Suspendisse quis mauris non ligula rutrum faucibus eu quis odio. Phasellus eu lobortis odio. In hac habitasse platea dictumst. Proin vestibulum turpis at mauris aliquam non euismod lorem euismod. Aenean dapibus ultricies enim, eget vulputate leo feugiat non.
+                    </p>
+                </div>
+                <div class="comments__column comments__column--960">
+                    <h2 class="comments__h2">RECENT COMMENTS</h2>
+                    <p class="comments__text">
+                        Nunc turpis neque, feugiat eget eleifend et, lacinia non neque. Praesent rhoncus ultrices posuere. Pellentesque vel lacus eget nisi convallis auctor. Nam vitae lectus eu libero pellentesque pulvinar. Quisque urna risus, mattis pulvinar bibendum in, venenatis quis neque. Mauris nec metus ultricies erat consequat dignissim non eu nisl. Quisque libero tellus, pharetra et eleifend id, interdum elementum arcu. Suspendisse quis mauris non ligula rutrum faucibus eu quis odio. Phasellus eu lobortis odio. In hac habitasse platea dictumst. Proin vestibulum turpis at mauris aliquam non euismod lorem euismod. Aenean dapibus ultricies enim, eget vulputate leo feugiat non.
+                    </p>
+                </div>
+                <div class="comments__column comments__column--768">
+                    <h2 class="comments__h2">NEWS CATEGORIES</h2>
+                    <p class="comments__text">
+                        Nunc turpis neque, feugiat eget eleifend et, lacinia non neque. Praesent rhoncus ultrices posuere. Pellentesque vel lacus eget nisi convallis auctor. Nam vitae lectus eu libero pellentesque pulvinar. Quisque urna risus, mattis pulvinar bibendum in, venenatis quis neque. Mauris nec metus ultricies erat consequat dignissim non eu nisl. Quisque libero tellus, pharetra et eleifend id, interdum elementum arcu. Suspendisse quis mauris non ligula rutrum faucibus eu quis odio. Phasellus eu lobortis odio. In hac habitasse platea dictumst. Proin vestibulum turpis at mauris aliquam non euismod lorem euismod. Aenean dapibus ultricies enim, eget vulputate leo feugiat non.
+                    </p>
+                </div>
+                <div class="comments__column comments__column--768">
+                    <h2 class="comments__h2">NEWS CATEGORIES</h2>
+                    <p class="comments__text">
+                        Nunc turpis neque, feugiat eget eleifend et, lacinia non neque. Praesent rhoncus ultrices posuere. Pellentesque vel lacus eget nisi convallis auctor. Nam vitae lectus eu libero pellentesque pulvinar. Quisque urna risus, mattis pulvinar bibendum in, venenatis quis neque. Mauris nec metus ultricies erat consequat dignissim non eu nisl. Quisque libero tellus, pharetra et eleifend id, interdum elementum arcu. Suspendisse quis mauris non ligula rutrum faucibus eu quis odio. Phasellus eu lobortis odio. In hac habitasse platea dictumst. Proin vestibulum turpis at mauris aliquam non euismod lorem euismod. Aenean dapibus ultricies enim, eget vulputate leo feugiat non.
+                    </p>
+                </div>
+                <div class="comments__column">
+                    <h2 class="comments__h2">NEWS CATEGORIES</h2>
+                    <p class="comments__text">
+                        Nunc turpis neque, feugiat eget eleifend et, lacinia non neque. Praesent rhoncus ultrices posuere. Pellentesque vel lacus eget nisi convallis auctor. Nam vitae lectus eu libero pellentesque pulvinar. Quisque urna risus, mattis pulvinar bibendum in, venenatis quis neque. Mauris nec metus ultricies erat consequat dignissim non eu nisl. Quisque libero tellus, pharetra et eleifend id, interdum elementum arcu. Suspendisse quis mauris non ligula rutrum faucibus eu quis odio. Phasellus eu lobortis odio. In hac habitasse platea dictumst. Proin vestibulum turpis at mauris aliquam non euismod lorem euismod. Aenean dapibus ultricies enim, eget vulputate leo feugiat non.
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <footer>
+            <nav>
+                <ul class="menu--footer">
+                    <li class="menu__item"><a href="#" class="menu__link">HOME</a></li>
+                    <li class="menu__item"><a href="#" class="menu__link">ABOUT</a></li>
+                    <li class="menu__item"><a href="#" class="menu__link">BLOG</a></li>
+                    <li class="menu__item"><a href="#" class="menu__link">PRODUCTS</a></li>
+                    <li class="menu__item"><a href="#" class="menu__link">LOREM IPSUM</a></li>
+                    <li class="menu__item"><a href="#" class="menu__link">DOLOR SIT AMET</a></li>
+                </ul>
+                <div class="footer__text__box">
+                    <p>Designed by <span>Pingbull AS</span></p>
+                </div>
+            </nav>
+        </footer>
+
+    </div>
 </body>
+
 </html>

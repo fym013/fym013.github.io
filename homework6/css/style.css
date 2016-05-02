@@ -238,8 +238,8 @@ figcaption {
 
 .left-sidebar {
 	float: left;
-	margin-bottom: -20000px;
-    padding-bottom: 20000px;
+	margin-bottom: -100px;
+    padding-bottom: 100px;
 	position: absolute;
 	background: white;
 }
@@ -322,8 +322,8 @@ figcaption {
 
 
 .right-sidebar {
-	margin-bottom: -20000px;
-    padding-bottom: 20000px;
+	margin-bottom: -100px;
+    padding-bottom: 100px;
 	float: right;
 	position: relative;
 	background: white;

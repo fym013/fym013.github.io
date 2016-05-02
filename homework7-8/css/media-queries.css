@@ -1,0 +1,602 @@
+
+@media (min-width:768px) and (max-width:959px) {
+
+    .logo {
+        float: left;
+        padding-left: 18px;
+    }
+    .menu {
+        margin: 0;
+        width: 100%;
+        display: block;
+        padding-top: 32px;
+        padding-left: 20px;
+        float: left;
+    }
+    .menu__item {
+        margin: 0 48px 0 0;
+    }
+
+    .slider {
+        margin: -607px 0 165px 0;
+    }
+
+    .slider__content__box {
+        margin: 0 0 0 40px;
+        padding: 97px 0 0 4px;
+        width: 280px;
+        height: 193px;
+        overflow: hidden;
+    }
+
+    .slider__h1 {
+        font-size: 48px;
+    }
+
+    .slider__h2 {
+        padding: 8px 0;
+        font-size: 24px;
+        white-space: nowrap;
+        letter-spacing: 0.25px;
+    }
+
+    .slider__p {
+        font-size: 16px;
+        line-height: 26px;
+    }
+
+    .iphone {
+        margin: -22px 0  0 125px;
+    }
+
+    .switch {
+        margin: 436px 0 0 219px;
+    }
+
+    .block {
+        margin: 75px 18px 69px 82px;
+        width: 154px;
+    }
+
+    .block__item {
+        font-size: 24px;
+    }
+
+    .block__text {
+        height: 137px;
+        overflow: hidden;
+        line-height: 23px;
+    }
+
+    .block__item {
+        margin-bottom: 9px;
+    }
+
+    .block__link {
+        margin-top: 9px;
+        margin-left: 95px;
+    }
+
+    .section__news {
+        margin-left: 19px;
+    }
+
+    .section__text {
+        margin-left: 63px;
+        width: 250px;
+        height: 148px;
+        overflow: hidden;
+        line-height: 24px;
+    }
+
+    .section__h2 {
+        margin-top: 29px;
+        margin-left: 64px;
+        font-size: 24px;
+    }
+
+    .section__h2__pink {
+        display: block;
+        font-style: 24px;
+    }
+
+    .section__switch {
+        margin-left: -240px;
+    }
+
+    .section__updates__h2 {
+        margin-top: 29px;
+        margin-left: 7px;
+    }
+
+    .section__updates__box {
+        margin-left: 10px;
+        margin-bottom: 28px;
+    }
+
+    .section__updates__h3 {
+        margin: 0px 0 5px 65px;
+        padding: 0;
+    }
+
+    .section__updates__text {
+        width: 257px;
+        padding-top: 3px;
+        padding-left: 5px;
+        white-space: nowrap;
+        overflow: hidden;
+    }
+
+    .section__link {
+        display: none;
+    }
+
+    .section__link__2 {
+        margin-top: 23px;
+        margin-left: 68%;
+        display: block;
+    }
+
+    .section__logos__box {
+        margin-top: 485px;
+    }
+
+    .section__logos__img {
+        padding-top: 0px;
+        margin: 0px 28px 21px 20px;
+    }
+
+    .comments__column--960 {
+        display: none;
+    }
+
+    .comments__logo {
+        display: none;
+    }
+
+    .comments__column--768 {
+        display: block;
+    }
+
+    .comments__column {
+        margin: 95px 36px 95px 20px;
+    }
+
+    .comments__h2{
+        margin-top: 10px;
+        margin-bottom: 15px;
+        font-size: 24px;
+    }
+
+    .comments__text {
+        width: 200px;
+        height: 163px;
+        line-height: 23px;
+        letter-spacing: 0.1px;
+    }
+
+    .comments-box:last-child {
+        margin-right: 0px;
+    }
+
+    footer {
+        width: 100%;
+        height: 190px;
+        background: url(../img/bg_footer768.jpg) 0 0 no-repeat;
+    }
+
+    .menu--footer {
+        padding-left: 20px;
+    }
+
+    .menu--footer .menu__item {
+        margin: 45px 33px 40px 0px;
+    }
+
+    .footer__text__box {
+        margin: 0 0 0 79%;
+    }
+}
+
+@media (min-width:480px) and (max-width:767px) {
+
+    .menu__item {
+        display: none;
+    }
+
+    .drop-menu {
+        display: block;
+        text-transform: uppercase;
+    }
+
+    .drop-menu__button {
+        margin: 0 auto;
+        margin-top: 25px;
+        clear: both;
+    }
+
+    .logo {
+        margin-bottom: 25px;
+        margin-left: 35%;
+    }
+
+    .slider {
+        margin: -648px 0 180px 0;
+        height: 245px;
+    }
+
+    .slider__content__box {
+        padding: 94px 0 0 2px;
+        width: 243px;
+        white-space: nowrap;
+        overflow: hidden;
+    }
+
+    .slider__h1 {
+        margin: 0 0 0 40px;
+        font-size: 36px;
+    }
+
+    .slider__h2{
+        margin: 0 0 0 40px;
+        font-size: 18px;
+    }
+
+    .slider__p {
+        display: none;
+    }
+
+    .iphone  {
+        margin: -7px 0  0 19px;
+        height: 300px;
+    }
+
+    .switch {
+        margin-top: 270px;
+        margin-left: -40px;
+    }
+
+    article {
+        margin-top: -80px;
+    }
+
+    .block-box {
+        padding-top: 50px;
+        padding-bottom: 50px;
+        height: 500px;
+    }
+
+    .block {
+        margin: 25px 0px 5px 86px;
+        width: 380px;
+        float: left;
+    }
+
+    .block__link {
+        margin : 20px 10px 0 0;
+        float: right;
+    }
+
+    .block__item {
+        font-size: 24px;
+    }
+
+    .block__text {
+        line-height: 20px;
+    }
+
+    .block__icon {
+        position: absolute;
+        margin: -95px 0 0 -55px;
+        display: block;
+        width: 28px;
+        height: 28px;
+        background: url(../img/sprite.png) 0 0 no-repeat;
+    }
+
+    .section__news {
+        width: 440px;
+    }
+
+    .section__switch {
+        margin: 365px 0 0 -270px;
+    }
+
+    .section__updates {
+        width: 380px;
+        float: left;
+    }
+
+    .section__news {
+        margin: 68px 10px 0px 23px;
+    }
+
+    .section__updates {
+        margin: 32px 0 0 87px;
+    }
+
+    .section__updates__img {
+        margin-right: 15px;
+    }
+
+    .section__updates__box{
+        margin-bottom: 15px;
+        width: 325px;
+        white-space: nowrap;
+        overflow: hidden;
+
+    }
+
+    .section__updates__h3 {
+        margin: 0px 0 10px 0;
+        padding-top: 4px;
+    }
+
+    .section__link {
+        display: none;
+    }
+
+    .section__link__2 {
+        margin-top: 25px;
+        margin-left: 52%;
+        display: block;
+        position: absolute;
+    }
+
+    .section__logos__box {
+        margin-top: 785px;
+        padding: 0px 0 60px 0;
+    }
+
+    .section__logos__img {
+        margin: 40px 5% -20px 10%;
+    }
+
+    .comments {
+        height: 665px;
+    }
+
+    .comments-box {
+        margin-top: 55px;
+    }
+
+    .comments__column--960 {
+        display: none;
+    }
+
+    .comments__column--768 {
+        display: block;
+    }
+
+    .comments__column {
+        margin: 20px 20px 30px 20px;
+    }
+
+    .comments__h2 {
+        margin-bottom: 10px;
+        font-size: 24px;
+    }
+    .comments__text {
+        height: 100px;
+        width: 440px;
+        line-height: 25px;
+    }
+
+    footer {
+        width: 100%;
+        height: 200px;
+        background: url(../img/bg_footer768.jpg) 0 0 no-repeat;
+    }
+
+    .menu--footer .menu__item {
+        margin : 45px -3px 20px 24px ;
+        display: inline-block;
+    }
+
+    .menu--footer .menu__link{
+        letter-spacing: 0px;
+    }
+
+    .footer__text__box {
+        margin: 18px 35%;
+    }
+}
+
+@media (min-width:320px) and (max-width:479px) {
+
+    header {
+        height: 468px;
+    }
+
+    .menu__item {
+        display: none;
+    }
+
+    .drop-menu {
+        display: block;
+        text-transform: uppercase;
+    }
+
+    .drop-menu__button {
+        margin: 0 auto;
+        margin-top: 25px;
+        clear: both;
+    }
+
+    .logo {
+        margin-bottom: 25px;
+        margin-left: 25%;
+    }
+
+    .iphone {
+        display: none;
+    }
+    .slider__h1 {
+        margin: 0 12%;
+        font-size: 36px;
+    }
+
+    .slider__h2{
+        margin: 0 12%;
+        font-size: 18px;
+        width: 203px;
+        white-space: nowrap;
+        overflow: hidden;
+    }
+
+    .slider__p {
+        display: none;
+    }
+
+    .slider {
+        background-color: transparent;
+    }
+
+    .slider__content__box {
+        margin-top: 85px;
+    }
+    .switch {
+        margin-top: 484px;
+        margin-left: 38%;
+    }
+
+    .block-box {
+        padding-top: 50px;
+        padding-bottom: 50px;
+        height: 500px;
+    }
+
+    .block {
+        margin: 20px 20px 5px 81px;
+        float: left;
+    }
+
+    .block__link {
+        margin : 17px 38px 0 0;
+        float: right;
+    }
+
+    .block__item {
+        margin-bottom: 3px;
+        font-size: 24px;
+    }
+
+    .block__text {
+        width: 215px;
+        height: 70px;
+        line-height: 25px;
+        overflow: hidden;
+    }
+
+    .block__icon {
+        position: absolute;
+        margin: -95px 0 0 -55px;
+        display: block;
+        width: 28px;
+        height: 28px;
+        background: url(../img/sprite.png) 0 0 no-repeat;
+    }
+
+    .section__news {
+        margin: 69px 10px 0px 19px;
+        width: 280px;
+    }
+
+    .section__switch {
+        margin: 361px 0 0 -170px;
+    }
+
+    .section__updates {
+        width: 380px;
+        float: left;
+    }
+    .section__h2 {
+        margin-top: 24px;
+        margin-bottom: 5px;
+        font-size: 24px;
+    }
+    .section__h2__pink {
+        display: block;
+    }
+
+    .section__text {
+        margin-top: 6px;
+        width: 178px;
+        height: 163px;
+        overflow: hidden;
+        font-size: 16px;
+        line-height: 20px;
+
+    }
+
+    .section__updates {
+        margin: 32px 0 0 20px;
+    }
+
+    .section__updates__img {
+        margin-right: 15px;
+    }
+
+    .section__updates__box{
+        margin-bottom: 15px;
+        width: 325px;
+        white-space: nowrap;
+        overflow: hidden;
+
+    }
+
+    .section__updates__h3 {
+        margin: 0px 0 10px 0;
+        padding-top: 4px;
+        width: 155px;
+        white-space: nowrap;
+        overflow: hidden;
+    }
+
+    .section__updates__text {
+        width: 216px;
+        white-space: nowrap;
+        overflow: hidden;
+    }
+
+    .section__link {
+        display: none;
+    }
+
+    .section__link__2 {
+        margin-top: 23px;
+        margin-left: 59%;
+        display: block;
+        position: absolute;
+    }
+
+    .section__logos__box {
+        margin-top: 785px;
+        padding: 0px 0 60px 0;
+    }
+
+    .section__logos__img {
+        margin: 45px 10% -20px 10%;
+    }
+
+    .comments {
+        display: none;
+    }
+
+    footer {
+        width: 100%;
+        height: 200px;
+        background: url(../img/bg_footer768.jpg) 0 0 no-repeat;
+    }
+
+    .menu--footer .menu__item {
+        display: none;
+    }
+
+    .footer__text__box {
+        margin: 50px 28%;
+    }
+}
+
+
+
