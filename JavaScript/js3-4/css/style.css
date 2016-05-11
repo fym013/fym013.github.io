@@ -1,0 +1,40 @@
+body {
+    background-color: #cccaca;
+}
+
+.wrapper {
+    margin: 50px auto;
+    width: 800px;
+    border: 1px solid black;
+    background-color: white;
+}
+
+.header {
+    margin: 20px 0 0 275px;
+}
+
+.checkbox {
+    margin: 50px 0 0 100px;
+}
+
+.btn {
+    margin: 50px 0 50px 175px;
+    border-radius: 0px;
+    border: 1px solid black;
+    background-color: #b9d1e8;
+    color: black;
+    font-size: 16px;
+}
+
+.question {
+    margin: 15px 0;
+}
+
+.checkboxName {
+    display: block;
+    margin-left: 30px;
+}
+
+.answer {
+    margin-left: -150px !important;
+}
