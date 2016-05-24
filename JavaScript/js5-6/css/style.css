@@ -1,0 +1,25 @@
+body {
+    background-color: #B0DFEB;
+}
+
+.timer {
+    margin : 200px auto;
+    width: 600px;
+    height: 300px;
+}
+.stopwatch {
+    font-size: 75px;
+    text-align: center;
+    border: solid;
+    border-radius: 15px;
+}
+
+.btn {
+    margin-top: 50px;
+    margin-left: 25px;
+    font-size: 25px;
+}
+
+.btn-success {
+    margin-left: 175px;
+}
