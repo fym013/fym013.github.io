@@ -1,0 +1,75 @@
+body {
+    margin: 0 auto;
+    width: 900px;
+}
+
+.tabs {
+    background: #DEF1FC;
+    margin: 0 0 30px;
+}
+.tabs__caption {
+    height: 28px;
+    line-height: 25px;
+    list-style: none;
+    border-bottom: 1px solid #DDD;
+    background: #FFF;
+}
+.tabs__caption li {
+    float: left;
+    display: inline;
+    margin: 0 1px -1px 0;
+    padding: 0 13px 1px;
+    color: #777;
+    cursor: pointer;
+    background: #F9F9F9;
+    border: 1px solid #E4E4E4;
+    border-bottom: 1px solid #F9F9F9;
+    border-radius: 3px;
+    position: relative;
+}
+.tabs__caption li:hover {
+    padding: 0 13px;
+    background: #D4E7FA;
+    border: 1px solid #E4E4E4;
+}
+.tabs__caption .active {
+    color: #444;
+    background: #DEF1FC;
+    padding: 0 13px 2px;
+    border: 1px solid #D4D4D4;
+    border-bottom: 1px solid #DEF1FC;
+}
+.tabs__content {
+    display: none;
+    border: 1px solid #D4D4D4;
+    border-width: 0 1px 1px;
+    background: #DEF1FC;
+    padding: 0 12px;
+}
+.tabs__content.active {
+    display: block;
+}
+
+
+------------------------------------------------------------------
+
+
+form {
+    width: 600px;
+}
+
+label {
+    display: inline-block;
+    width: 70px;
+  }
+fieldset div {
+    margin-top: 20px;
+  }
+
+fieldset div:last-child{
+    margin-bottom: 20px;
+}
+
+em{
+    display: none;
+}
