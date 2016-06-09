@@ -1,0 +1,206 @@
+
+body {
+    background-color: Gainsboro;
+}
+
+/*jcarousel*/
+
+.wrap_jcarousel{
+  width: 500px;
+  margin: 10px auto;
+  position: relative;
+}
+
+.jcarousel {
+    position: relative;
+    overflow: hidden;
+}
+
+.jcarousel ul {
+    width: 20000em;
+    position: relative;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.jcarousel li {
+
+    float: left;
+}
+
+.jcarousel-prev, .jcarousel-next{
+    position: absolute;
+    top: 200px;
+    display: block;
+    text-decoration: none;
+    font-size: 50px;
+    font-weight: bold;
+    color: gray;
+}
+
+.jcarousel-prev{
+    left: -50px;
+}
+
+.jcarousel-next{
+    right: -50px;
+}
+
+/*select*/
+
+form {
+    width: 500px;
+    margin: 0 auto;
+    font-size: 14px;
+}
+.select-box {
+    width: 40%;
+    float: left;
+}
+h4 {
+    margin: 10px 0px;
+    color: #291b33;
+}
+
+/*jQuery checkbox*/
+
+.query-checkbox, .css-checkbox {
+    width: 30%;
+    float: left;
+}
+.query-checkbox div, .css-checkbox div {
+    margin-bottom: 10px;
+}
+
+.niceCheck {
+    width: 17px;
+    height: 17px;
+    overflow: hidden;
+    display: inline-block;
+    background: url(../img/checkbox.png);
+    cursor: pointer;
+}
+.niceChecked {
+    background-position: 0 -17px;
+}
+.query-checkbox input {
+    opacity: 0;
+}
+div {
+    margin-bottom: 10px;
+}
+.niceCheckDisabled {
+    background-image: url(../img/checkbox-disabled.png);
+}
+
+/*CSS checkbox*/
+
+.cch {
+    position: absolute;
+    clip: rect(0, 0, 0, 0);
+}
+.cch-text {
+    cursor: pointer;
+}
+.cch-text:before {
+    top: 3px;
+    margin-right: 15px;
+    width: 17px;
+    height: 17px;
+    content: ' ';
+    display: inline-block;
+    position: relative;
+    background: url('../img/checkbox.png');
+}
+.cch:checked + .cch-text::before {
+    background-position: 0 -17px;
+}
+.cch:disabled + .cch-text::before {
+    background: url('../img/checkbox-disabled.png');
+    background-position: 0 -17px;
+}
+
+/* =Styles for the lab
+-------------------------------------------------------------- */
+
+nav {
+    margin: 0 auto;
+    width: 500px;
+    background-color:rgb(255,100,100);
+    padding:10px 0;
+}
+nav ul {
+    list-style-type:none;
+    margin:0;
+    padding:0;
+}
+nav ul li {
+    display:inline-block;
+    position:relative;
+}
+
+/* sub navigation */
+nav li ul {
+    background-color:rgb(225,75,75);
+    position:absolute;
+    left:0;
+    top:40px; /* make this equal to the line-height of the links (specified below) */
+    width:200px;
+}
+nav li li {
+    position:relative;
+    margin:0;
+    display:block;
+}
+nav li li ul {
+    position:absolute;
+    top:0;
+    left:200px; /* make this equal to the width of the sub nav above */
+    margin:0;
+}
+
+/* style all links */
+nav a {
+    line-height:40px;
+    padding:0 12px;
+    margin:0 12px;
+}
+nav a {
+    color:#fff;
+    text-decoration:none;
+    display:block;
+}
+nav a:hover,
+nav a:focus,
+nav a:active {
+    color:rgb(50,50,50);
+}
+
+/* style sub level links */
+nav li li a {
+    border-bottom:solid 1px rgb(200,50,50);
+    margin:0 10px;
+    padding:0;
+}
+nav li li:last-child a {
+    border-bottom:none;
+}
+
+/* hide sub menu links */
+ul.sub-menu {
+    display:none;
+}
+
+/* show arrows for dropdowns */
+nav li.dropdown > a {
+    background-image:url('../img/arrow-down.png');
+    background-position:right 20px;
+    background-repeat:no-repeat;
+}
+
+nav li li.dropdown > a {
+    background-image:url('../img/arrow-right.png');
+    background-position:right 16px;
+    background-repeat:no-repeat;
+}
