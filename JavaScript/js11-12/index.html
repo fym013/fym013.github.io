@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8"/>
+    <title>plugin</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script>
+    <script src="js/carousel.js"></script>
+    <script src="js/tmpl.js"></script>
+    <script src="js/script.js"></script>
+    <link href="css/style.css" rel="stylesheet">
+</head>
+<body>
+    <div class="carousel">
+        <div class="carousel-arrow-left"><span>&#171;</span></div>
+        <div class="carousel-hider">
+            <ul class="carousel-list">
+                <li class="carousel-element"><img src="img/image1.jpg"><p>Описание 1</p></li>
+                <li class="carousel-element"><img src="img/image2.jpg"><p>Описание 2</p></li>
+                <li class="carousel-element"><img src="img/image3.jpg"><p>Описание 3</p></li>
+                <li class="carousel-element"><img src="img/image4.jpg"><p>Описание 4</p></li>
+                <li class="carousel-element"><img src="img/image1.jpg"><p>Описание 5</p></li>
+                <li class="carousel-element"><img src="img/image2.jpg"><p>Описание 6</p></li>
+                <li class="carousel-element"><img src="img/image3.jpg"><p>Описание 7</p></li>
+                <li class="carousel-element"><img src="img/image4.jpg"><p>Описание 8</p></li>
+                <li class="carousel-element"><img src="img/image1.jpg"><p>Описание 9</p></li>
+                <li class="carousel-element"><img src="img/image2.jpg"><p>Описание 10</p></li>
+                <li class="carousel-element"><img src="img/image3.jpg"><p>Описание 11</p></li>
+                <li class="carousel-element"><img src="img/image4.jpg"><p>Описание 12</p></li>
+            </ul>
+        </div>
+        <div class="carousel-arrow-right"><span>&#187;</span></div>
+    </div>
+    <section class="shablon">
+        <script type="text/html" id="profile">
+            <div class="profile-wrapper">
+                <div class="header">
+                    <h1><%= name %></h1>
+                    <img src="<%= photo.src%>" alt="<%= photo.alt%>">
+                    <p><%= job %></p>
+                </div>
+                <hr>
+                <div class="main">
+                    <h3><%= why %></h3>
+                    <ul>
+                        <% for (var i = 0; i < reasons.length; i++) { %>
+                        <li><%= reasons[i] %></li>
+                        <% } %>
+                    </ul>
+                </div>
+                <hr>
+                <div class="contacts">
+                    <p><%= tel %> <%= number %></p>
+                    <p><%= fb %> <a href="<%= fb_link%>"><%= fb_link %></a></p>
+                </div>
+                <hr>
+                <div class="feedback">
+                    <p><%= feedback %></p>
+                    <h4><%= feedback_text %></h4>
+                </div>
+            </div>
+        </script>
+    </section>
+</body>
+</html>

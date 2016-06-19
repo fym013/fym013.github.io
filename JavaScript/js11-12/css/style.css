@@ -1,0 +1,91 @@
+body {
+    margin: 0 auto;
+    width: 800px;
+}
+
+/*carousel*/
+
+.carousel-list {
+    padding: 0px;
+    position: relative;
+    list-style: none;
+    width: 10000px;
+}
+
+.carousel-element {
+    margin-right: 25px;
+    display: block;
+    float: left;
+}
+
+.carousel-element img {
+    max-width: 100px;
+}
+
+.carousel-hider {
+
+    width: 600px;
+    overflow: hidden;
+    float: left;
+}
+
+.carousel-arrow-left, .carousel-arrow-right {
+    float: left;
+    display: block;
+    border: 1px solid grey;
+    border-radius: 100%;
+    background-color: #D2DFF7;
+    padding: 5px;
+    margin-top: 50px
+}
+
+.carousel-arrow-left:hover, .carousel-arrow-right:hover {
+    cursor: pointer;
+    background-color: grey;
+}
+
+.carousel-arrow-left {
+    margin-right: 25px;
+}
+
+.carousel-arrow-right {
+    margin-left: 25px;
+}
+
+/*shablon*/
+
+h2 {
+    width: 50%;
+    margin: 20px auto 0;
+    text-align: center;
+    text-decoration: underline;
+    color: #fff;
+}
+
+.profile-wrapper {
+    margin: 0 auto;
+    width: 600px;
+}
+
+.profile-wrapper div {
+    margin: 10px auto;
+}
+
+.profile-wrapper p,
+.profile-wrapper li {
+    font-size: 14px;
+}
+
+.header {
+    text-align: center;
+}
+
+.header p {
+    font-size: 20px;
+}
+
+h3 {
+    padding-bottom: 5px;
+    font-size: 20px;
+}
+
