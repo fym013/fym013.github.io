@@ -1,0 +1,211 @@
+
+
+.wrapper {
+    width: 1440px;
+}
+
+/************************ HEADER ***************************/
+
+    header {
+        background-image: url(../../img/desktop-bg.jpg);
+        height: 700px;
+    }
+    .header__login {
+        margin: 50px 230px;
+        padding: 0;
+        float: right;
+    }
+
+    .header__logo {
+        margin: 50px 230px;
+        float: left;
+    }
+
+    .header__name {
+        padding-top: 6.5%;
+        clear: both;
+        font-size: 52px;
+        line-height: 60px;
+        white-space: pre-line;
+    }
+
+    .header__text {
+        margin: 30px 0 50px 0;
+        font-size: 23.99px;
+        font-weight: 300;
+        white-space: normal;
+    }
+
+    .header__btn {
+        padding: 15px 35px;
+    }
+
+/*************************** MAIN/CONTENT ***************************/
+
+    .content__title {
+        margin: 100px 0 30px 0;
+    }
+
+    .content__box {
+        margin: 0.5%;
+        width: 300px;
+        height: 400px;
+        display: inline-block;
+    }
+
+    .slider__btn-prev, .slider__btn-next {
+        top: 30%;
+        left: 10%;
+        display: block;
+        position: absolute;
+        font-size: 80px;
+        color: white;
+        text-decoration: none;
+
+    }
+
+    .slider__btn-next  {
+        left: 80%;
+    }
+
+    .content__slider__item img {
+        display: none;
+    }
+
+
+    .content__slider__item {
+        width: 300px;
+        height: 400px;
+        background-image: url(../../img/desktop-hiw1.jpg);
+        background-position: center;
+    }
+
+    .content__slider2 .content__slider__item {
+        background-image: url(../../img/desktop-hiw2.jpg);
+    }
+
+    .content__slider3 .content__slider__item {
+        background-image: url(../../img/desktop-hiw3.jpg);
+    }
+
+    .content__data {
+        top: 60%;
+    }
+
+/********************** DIV.PARTNERS ************************/
+
+    .partners {
+        margin: 90px auto 30px;
+        width: 70%;
+    }
+
+    .partners__box {
+        width: 19%;
+        margin: 3%;
+        float: left;
+    }
+
+    .partners__text {
+        width: 100%;
+    }
+
+    .partners__btn {
+        top: 20px;
+        margin: 0 auto;
+        padding: 10px 20px;
+        width: 190px;
+    }
+
+/************************** IDEAS ****************************/
+
+    .ideas__title {
+        margin: 90px auto 30px;
+    }
+
+    .ideas__img {
+        height: auto;
+    }
+
+    .grid {
+        width: 70%;
+        margin: 0 15%;
+    }
+
+    .grid-item {
+        margin: 5px;
+        width: 32%;
+    }
+
+    .grid-item:nth-child(3n) {
+        width: 65%;
+    }
+
+/************************** SEARCH ****************************/
+
+    .search {
+        margin: 80px 0 50px;
+        width: 100%;
+    }
+
+    .search__field {
+        margin-right: 10px;
+        padding: 10px 5px;
+    }
+
+    .search__text {
+        margin: 25px 0;
+
+    }
+
+    .search__btn {
+        position: relative;
+        padding: 10px 30px;
+    }
+
+/************************* FOOTER ***************************/
+
+    .footer {
+        padding: 4% 0;
+    }
+
+    .footer__wrapper {
+        margin: 0 auto;
+        width: 70%;
+    }
+
+    .footer__title {
+        margin: 0 2%;
+        text-align: left;
+        float: left;
+    }
+
+    .footer__nav {
+        margin: 5px 7.5% 4%;
+        text-align: left;
+        float: left;
+    }
+
+    .footer__nav__item {
+        margin: 15%;
+        display: block;
+    }
+
+    .footer__nav__item:first-child {
+        margin-top: 0;
+    }
+
+
+    .footer__partners {
+        margin: 5px 7.5%;
+        float: left;
+    }
+
+    .footer__logo {
+        margin: 0 2%;
+        float: right;
+    }
+
+    .footer__logo__text {
+        margin: 5%;
+        text-align: right;
+    }

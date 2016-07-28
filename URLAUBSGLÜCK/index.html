@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"/>
+        <title>URLAUBSGLÜCK</title>
+        <link rel="stylesheet" href="css/dist/style.main.css"/>
+        <link rel="stylesheet" href="css/dist/media-queries.css"/>
+        <!--[if IE 8]>
+        <script src="https://raw.githubusercontent.com/aFarkas/html5shiv/master/src/html5shiv.js"></script>
+        <link rel="stylesheet" href="css/dist/ie8.css">
+        <![endif]-->
+    </head>
+    <body>
+        <div class="wrapper">
+            <header>
+                <div class="header__login">
+                    <a href="#" class="header__login__link">Log in</a>
+                    <a href="#" class="header__login__link">Sign up</a>
+                </div>
+                <h2 class="header__logo">URLAUBSGLÜCK</h2>
+                <h1 class="header__name">Share your
+                 holiday dreams</h1>
+                <p class="header__text">And find the perfect partner
+                to fullfill it</p>
+
+                <div class="header__btn-box">
+                    <a href="#" class="header__btn">Find your holiday partner</a>
+                </div>
+            </header>
+            <main class="content">
+                <h2 class="content__title">How Urlaubsglück works?</h2>
+                <div class="content__box">
+                    <ul class="content__slider">
+                        <li class="content__slider__item"><img src="img/mobile-hiw1.jpg" alt=""></li>
+                        <li class="content__slider__item"><img src="img/mobile-hiw3.jpg" alt=""></li>
+                    </ul>
+                    <a class="slider__btn-prev" href="#">&#9001;</a>
+                    <a class="slider__btn-next" href="#">&#9002;</a>
+                    <div class="content__data">
+                        <a href="#" class="content__btn">Step 1</a>
+                        <h3 class="content__name">Sed leo enim, condimentum</h3>
+                        <p class="content__text">Quisque libero libero, dictum non turpis in, luctus semper lorem. Donec rhoncus a leo sit amet facilisis.</p>
+                    </div>
+                </div>
+                <div class="content__box">
+                    <ul class="content__slider content__slider2 ">
+                        <li class="content__slider__item"><img src="img/mobile-hiw2.jpg" alt=""></li>
+                        <li class="content__slider__item"><img src="img/mobile-hiw1.jpg" alt=""></li>
+                    </ul>
+                    <a class="slider__btn-prev" href="#">&#9001;</a>
+                    <a class="slider__btn-next" href="#">&#9002;</a>
+                    <div class="content__data">
+                        <a href="#" class="content__btn">Step 2</a>
+                        <h3 class="content__name">Morbi velit risus</h3>
+                        <p class="content__text">Nulla venenatis tempor dui in molestie.<br> Nulla quis dictum purus, sit amet porttitor est.</p>
+                    </div>
+                </div>
+                <div class="content__box">
+                    <ul class="content__slider content__slider3">
+                        <li class="content__slider__item"><img src="img/mobile-hiw3.jpg" alt=""></li>
+                        <li class="content__slider__item"><img src="img/mobile-hiw2.jpg" alt=""></li>
+                    </ul>
+                    <a class="slider__btn-prev" href="#">&#9001;</a>
+                    <a class="slider__btn-next" href="#">&#9002;</a>
+                    <div class="content__data">
+                        <a href="#" class="content__btn">Step 3</a>
+                        <h3 class="content__name">Sed leo enim, condimentum</h3>
+                        <p class="content__text">Quisque libero libero, dictum non turpis in, luctus semper lorem. Donec rhoncus a leo sit amet facilisis.</p>
+                    </div>
+                </div>
+            </main>
+            <div class="partners">
+                <h2 class="partners__title">Meet a partner for your best holiday</h2>
+                <figure class="partners__box">
+                    <img src="img/partner1.png" alt="foto" class="partners__photo">
+                    <img src="img/partnertv-icon.png" alt="icon" class="partners__icon">
+                    <figcaption>
+                        <p class="partners__name">Bradley Hunter</p>
+                        <p class="partners__text">Based in Chicago. I love playing tennis and loud music.</p>
+                    </figcaption>
+                </figure>
+                <figure class="partners__box">
+                    <img src="img/partner2.png" alt="foto" class="partners__photo">
+                    <img src="img/partnerbt-icon.png" alt="icon" class="partners__icon">
+                    <figcaption>
+                        <p class="partners__name">Lucas Marsha</p>
+                        <p class="partners__text">I get my inspiration from nature and objects around me. I have a passion to colours, typography and skateboards.</p>
+                    </figcaption>
+                </figure>
+                <figure class="partners__box">
+                    <img src="img/partner3.png" alt="foto" class="partners__photo">
+                    <img src="img/partnercup-icon.png" alt="icon" class="partners__icon">
+                    <figcaption>
+                        <p class="partners__name">Heather Walker</p>
+                        <p class="partners__text">I'm a happy person that loves cats and climbing on mountains.</p>
+                    </figcaption>
+                </figure>
+                <figure class="partners__box">
+                    <img src="img/partner4.png" alt="foto" class="partners__photo">
+                    <img src="img/partnerpl-icon.png" alt="icon" class="partners__icon">
+                    <figcaption>
+                        <p class="partners__name">Bradley Hunter</p>
+                        <p class="partners__text">Based in Chicago. I love playing tennis and loud music.</p>
+                    </figcaption>
+                </figure>
+                <a href="#" class="partners__btn">See other partners</a>
+            </div>
+            <section class="ideas">
+                <h2 class="ideas__title">Discover holiday activity
+                    ideas</h2>
+                <script type="text/template" id="container">
+                    <div class="grid">
+                        <% for (var i = 0; i < 8; i++) { %>
+                        <figure class="grid-item">
+                            <img src="<%= hits[i].webformatURL %>" alt="picture" class="ideas__img"/>
+                            <figcaption class="ideas__img--title"><%= hits[i].tags.split(', ')[1] %></figcaption>
+                        </figure>
+                        <% } %>
+                    </div>
+                </script>
+            </section>
+            <section class="search">
+                <h2 class="search__title">Discover holiday activity ideas</h2>
+                <p class="search__text">Hi! What are your holiday interests?</p>
+                    <input type="search" placeholder="Enter your interests" class="search__field"/>
+                    <button class="search__btn">Search partners</button>
+            </section>
+            <footer class="footer">
+                <div class="footer__wrapper">
+                    <h2 class="footer__title">URLAUBSGLÜCK</h2>
+                    <ul class="footer__nav">
+                        <li class="footer__nav__item">Company</li>
+                        <li class="footer__nav__item"><a href="#" class="footer__nav__link">About</a></li>
+                        <li class="footer__nav__item"><a href="#" class="footer__nav__link">Contacts</a></li>
+                        <li class="footer__nav__item"><a href="#" class="footer__nav__link">Press</a></li>
+                        <li class="footer__nav__item"><a href="#" class="footer__nav__link">Blog</a></li>
+                    </ul>
+                    <a href="#" class="footer__partners">Partners</a>
+                    <div class="footer__logo">
+                        <span class="footer__logo__text">Designed by</span>
+                        <img src="img/logo.png" alt="logo" class="footer__logo__img">
+                    </div>
+                </div>
+            </footer>
+        </div>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jcarousel/0.3.4/jquery.jcarousel.min.js"></script>
+        <script src="js/dist/script.main.js"></script>
+    </body>
+</html>
