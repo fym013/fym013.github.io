@@ -7,6 +7,16 @@
         <title>URLAUBSGLÜCK</title>
         <link rel="stylesheet" href="css/dist/style.main.css"/>
         <link rel="stylesheet" href="css/dist/media-queries.css"/>
+        <style type="text/css">
+            .header__btn1 {
+                width: 300px;
+                font-size: 13px;
+                padding: 6px 0 4px 10px;
+                border: 1px solid #cecece;
+                background: #F6F6f6;
+                border-radius: 8px;
+            }
+        </style>
     </head>
     <body>
         <div class="wrapper">
@@ -23,12 +33,12 @@
 
                 <div class="header__btn-box">
                     <!--<a href="#" class="header__btn">Find your holiday partners</a>-->
-                    <form class="header__btn" name="payment" method="post" action="https://sci.interkassa.com/" accept-charset="UTF-8">
+                    <form name="payment" method="post" action="https://sci.interkassa.com/" accept-charset="UTF-8">
                         <input type="hidden" name="ik_co_id" value="5807335d3d1eaf4b5b8b4567" />
                         <input type="hidden" name="ik_pm_no" value="ID_4233" />
                         <input type="hidden" name="ik_am" value="4.99" />
                         <input type="hidden" name="ik_desc" value="Payment Description" />
-                        <input type="submit" value="Pay the subscription">
+                        <input class="header__btn1"type="submit" value="Pay the subscription">
                     </form>
                 </div>
             </header>
