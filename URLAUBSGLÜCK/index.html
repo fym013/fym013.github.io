@@ -22,7 +22,14 @@
                 to fullfill it</p>
 
                 <div class="header__btn-box">
-                    <a href="#" class="header__btn">Find your holiday partner</a>
+                    <a href="#" class="header__btn">Pay the subscription</a>
+                    <form name="payment" method="post" action="https://sci.interkassa.com/" accept-charset="UTF-8">
+                        <input type="hidden" name="ik_co_id" value="5807335d3d1eaf4b5b8b4567" />
+                        <input type="hidden" name="ik_pm_no" value="ID_4233" />
+                        <input type="hidden" name="ik_am" value="4.99" />
+                        <input type="hidden" name="ik_desc" value="Payment Description" />
+                        <input type="submit" value="Pay the subscription">
+                    </form>
                 </div>
             </header>
             <main class="content">
