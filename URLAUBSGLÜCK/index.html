@@ -50,6 +50,25 @@
 			<input type="hidden" name="ik_loc" value="en" />
                         <input class="header__btn1"type="submit" value="Find the partner 5₴">
                     </form>
+			<form id="payment" name="payment" method="post" action="https://sci.interkassa.com/" enctype="utf-8">
+        <input type="hidden" name="ik_co_id" value="5b6da4ca3d1eaf88328b4569" />
+        <input type="hidden" name="ik_pm_no" value="ID_4233" />
+        <input type="hidden" name="ik_am" value="296" />
+        <input type="hidden" name="ik_cur" value="RUB" />
+        <input type="hidden" name="ik_desc" value="Event Description" />
+
+
+        <input type="hidden" name="ik_x_[user_id]" value="33" />
+        <input type="hidden" name="ik_ia_u" value="https://moviescult.com/test" />
+        <input type="hidden" name="ik_suc_u" value="https://moviescult.com/test?suc" />
+        <input type="hidden" name="ik_pnd_u" value="https://moviescult.com/test?pending" />
+        <input type="hidden" name="ik_fal_u" value="https://moviescult.com/test?fal" />
+        <input type="hidden" name="ik_ia_m" value="POST" />
+        <input type="hidden" name="ik_pnd_m" value="POST" />
+        <input type="hidden" name="ik_fal_m" value="POST" />
+        <input type="hidden" name="ik_int" value="json" />
+        <input type="submit" value="Pay">
+    </form>
 		</div>
 	    </header>
             <main class="content">
