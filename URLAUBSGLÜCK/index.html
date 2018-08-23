@@ -170,8 +170,8 @@
             </footer>
         </div>
 	    <script>
-<?php
-$dataSet = array (
+	<script type='text/javascript'>
+		(
 		"ik_co_id" => "5807335d3d1eaf4b5b8b4567",
 		"ik_pm_no" => "ID_4233",
 		"ik_pw_via" => "test_interkassa_test_xts",
@@ -180,20 +180,6 @@ $dataSet = array (
 		"ik_desc" => "Payment Description",
 		"ik_trn_id" =>"",				
 		);
-$key = "VYZ1aGgkqmzyQshG"; //В данном случае используется "Секретный ключ"
-//unset($dataSet['ik_sign']); удаляем из данных строку подписи
-ksort($dataSet, SORT_STRING); // сортируем по ключам в алфавитном порядке элементы массива
-array_push($dataSet, $key); // добавляем в конец массива "секретный ключ"
-$signString = implode(':', $dataSet); // конкатенируем значения через символ ":"
-echo $signString;//вывод строки
-echo "<br>";
-echo "---------- sign ------------";
-echo "<br>";
-$sign = base64_encode(md5($signString, true)); // берем MD5 хэш в бинарном виде по сформированной строке и кодируем в BASE64
-//return $sign; // возвращаем результат
-echo $sign;
-?>
-	<script type='text/javascript'>
 		$dataSet = array
 		$key = "VYZ1aGgkqmzyQshG"; //В данном случае используется "Секретный ключ"
 		//unset($dataSet['ik_sign']); удаляем из данных строку подписи
