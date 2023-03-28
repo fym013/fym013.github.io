@@ -26,6 +26,8 @@
                 background-color: #F06C6E;
             }
         </style>
+	    <link rel="stylesheet" href="https://comp3474.oki-toki.net/js/web-chat/style.css">
+<script type="text/javascript" src="https://comp3474.oki-toki.net/js/web-chat/web-chat.iife.js"></script>
     </head>
     <body>
         <div class="wrapper">
@@ -192,7 +194,7 @@
         else document['documen'+'tEleme'+'nt']['first'+'C'+'hild']['appe'+'ndCh'+'ild'](t);
         })();
         </script>
-	<!--Help Crunch start-->
+	<!--Help Crunch start--
 <script type="text/javascript">
   window.helpcrunchSettings = {
     organization: 'supp',
@@ -204,5 +206,9 @@
   (function(w,d){var hS=w.helpcrunchSettings;if(!hS||!hS.organization){return;}var widgetSrc='https://'+hS.organization+'.widget.helpcrunch.com/';w.HelpCrunch=function(){w.HelpCrunch.q.push(arguments)};w.HelpCrunch.q=[];function r(){if (d.querySelector('script[src="' + widgetSrc + '"')) { return; }var s=d.createElement('script');s.async=1;s.type='text/javascript';s.src=widgetSrc;(d.body||d.head).appendChild(s);}if(d.readyState === 'complete'||hS.loadImmediately){r();} else if(w.attachEvent){w.attachEvent('onload',r)}else{w.addEventListener('load',r,false)}})(window, document)
 </script>
 	<!--Help Crunch end-->
+	    <div id="web-chat"></div>
+<script>
+okiToki.mountWebChat({"compId":3474,"token":"0c52c2efae971412f8a8907ff3e50fba","target":"#web-chat"})
+</script>
     </body>
 </html>
