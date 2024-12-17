@@ -219,5 +219,50 @@
 	    })(document, window, 'Chatra');
 	</script>
 <!-- /Chatra {/literal} -->
+	<script>
+        document.addEventListener('DOMContentLoaded', function() {
+          var formIds = ['paymentForm', 'paymentForm1', 'paymentForm2'];
+          
+          formIds.forEach(function(formId) {
+            var form = document.getElementById(formId);
+            if (form) {
+              form.addEventListener('submit', function(event) {
+                event.preventDefault(); // Prevent the default form submission
+
+                var formData = new FormData(this);
+
+                fetch(this.action, {
+                  method: this.method,
+                  body: formData,
+                  headers: {
+                    'Accept': 'application/json',
+                  },
+                })
+                .then(response => {
+                  if (!response.ok) {
+                    throw new Error('Network response was not ok');
+                  }
+                  return response.json();
+                })
+                .then(data => {
+                  console.log('Success:', data); // For debugging purposes
+                  if (data.resultCode === 0 && data.resultMsg === "Success") {
+                    var actionUrl = data.resultData.paymentForm.action;
+                    window.location.href = actionUrl; // Redirect to the provided action URL
+                  } else {
+                    alert('Payment failed: ' + data.resultMsg);
+                  }
+                })
+                .catch(error => {
+                  console.error('Error:', error);
+                  alert('An error occurred. Please try again.');
+                });
+              });
+            } else {
+              console.error('Form with id "' + formId + '" not found.');
+            }
+          });
+        });
+</script>
     </body>
 </html>
